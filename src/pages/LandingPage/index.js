@@ -3,6 +3,12 @@ import LogoTechnocell from '../../assets/logo.png'
 import Imagem1 from '../../assets/Imagem1.jpg'
 import Imagem2 from '../../assets/Imagem2.jpg'
 import Imagem3 from '../../assets/Imagem3.jpg'
+import Imagem4 from '../../assets/Imagem4.jpg'
+import Imagem5 from '../../assets/Imagem5.jpg'
+import Imagem6 from '../../assets/Imagem6.jpg'
+import Imagem7 from '../../assets/Imagem7.jpg'
+import Imagem8 from '../../assets/Imagem8.jpg'
+
 import{
     AppBody,
     Header,
@@ -20,9 +26,11 @@ import{
     PDescricao,
     ContainerImagem,
     Imagens,
+    ContainerNossosServicos,
     ContainerSobre,
-    H2Sobre,
-    PSobre
+    H2Titulo,
+    PSobre,
+    ContainerProdutos,
 } from './styles';
 
 function LandingPage(){
@@ -48,10 +56,23 @@ function LandingPage(){
                 <Imagens src={Imagem2}></Imagens>
                 <Imagens src={Imagem3}></Imagens>
              </ContainerImagem> 
-             <ContainerSobre>
-                <H2Sobre>SOBRE A GENTE</H2Sobre>
-                <PSobre> </PSobre>
-             </ContainerSobre>
+             <ContainerNossosServicos>
+                <H2Titulo>NOSSOS SERVIÇOS</H2Titulo>
+                <ContainerImagem>
+                    <Imagens src={Imagem4}></Imagens>
+                    <Imagens src={Imagem5}></Imagens>
+                </ContainerImagem>
+                <ContainerSobre><PSobre> AQUI CONSERTAMOS O SEU APARELHO SEJA QUAL FOR A MARCA DEIXANDO ELE NOVO EM FOLHA. FAZEMOS A TROCA DO DISPLAY, BATERIA E TAMBEM DE OUTROS COMPONENTES.</PSobre></ContainerSobre>
+             </ContainerNossosServicos>
+             <ContainerProdutos>
+                <H2Titulo>VARIEDADE DE PRODUTOS</H2Titulo>
+                <ContainerImagem>
+                    <Imagens src={Imagem6}></Imagens>
+                    <Imagens src={Imagem7}></Imagens>
+                    <Imagens src={Imagem8}></Imagens>
+                </ContainerImagem>
+                <ContainerSobre><PSobre></PSobre></ContainerSobre>
+             </ContainerProdutos>
              </ContainerPrincipal>
             </Main>
         </AppBody>

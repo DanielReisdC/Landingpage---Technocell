@@ -21,6 +21,7 @@ width: 100%;
 margin-top: 2.5em;
 display: flex;
 justify-content: center;
+gap:10px;
 `;
 export const ContainerLogo = styled.div`
 display: flex;
@@ -82,7 +83,7 @@ transition: color 0.3s ease-in-out;
 export const H2 = styled.h2`
 font-size: 30px;
 font-weight: 600;
-color:#FFD200;
+color:#EFC700;
 `;
 
 export const Main = styled.div`
@@ -109,15 +110,35 @@ font-size: 16px;
 
 export const Imagens = styled.img`
 width:230px;
-margin-left:15px;
+
 `;
 export const ContainerSobre = styled.div`
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+padding: 0.5em;
+margin-top:8px;
+`;
+export const ContainerNossosServicos = styled.div`
 background-color: #18307b;
 box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px inset;
 width: 100%;
 padding-bottom: 50px;
+display: flex;
+    align-items:center;
+    flex-direction: column
 `;
-export const H2Sobre = styled.h2`
+export const ContainerProdutos = styled.div`
+background-color: #EFC700;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px inset;
+width: 100%;
+padding-bottom: 50px;
+display: flex;
+    align-items:center;
+    flex-direction: column
+`;
+export const H2Titulo = styled.h2`
 color: rgb(255, 255, 255);
     text-align: center;
     font-size: 27px;
@@ -127,7 +148,7 @@ export const PSobre = styled.p`
 color: rgb(255, 255, 255);
     font-weight: 600;
     font-size: 12px;
-    max-width: 31em;
+    max-width: 39em;
 `;
 
 
