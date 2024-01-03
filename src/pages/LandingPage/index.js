@@ -5,6 +5,8 @@ import Imagem2 from '../../assets/Imagem2.jpg'
 import Imagem3 from '../../assets/Imagem3.jpg'
 import Imagem4 from '../../assets/Imagem4.jpg'
 import Imagem5 from '../../assets/Imagem5.jpg'
+import Imagem51 from '../../assets/Imagem51.jpg'
+import Imagem52 from '../../assets/Imagem52.jpg'
 import Imagem6 from '../../assets/Imagem6.jpg'
 import Imagem7 from '../../assets/Imagem7.jpg'
 import Imagem8 from '../../assets/Imagem8.jpg'
@@ -58,11 +60,20 @@ function LandingPage(){
              </ContainerImagem> 
              <ContainerNossosServicos>
                 <H2Titulo>NOSSOS SERVIÇOS</H2Titulo>
+                
                 <ContainerImagem>
                     <Imagens src={Imagem4}></Imagens>
                     <Imagens src={Imagem5}></Imagens>
+                    
                 </ContainerImagem>
                 <ContainerSobre><PSobre> AQUI CONSERTAMOS O SEU APARELHO SEJA QUAL FOR A MARCA DEIXANDO ELE NOVO EM FOLHA. FAZEMOS A TROCA DO DISPLAY, BATERIA E TAMBEM DE OUTROS COMPONENTES.</PSobre></ContainerSobre>
+                <ContainerImagem>
+                    <Imagens src={Imagem52}></Imagens>
+                    <Imagens src={Imagem51}></Imagens>
+                    
+                </ContainerImagem>
+                <ContainerSobre><PSobre> TAMBEM COLOCAMOS PELÍCULA E FAZEMOS LIMPEZA EM SEU APARELHO.</PSobre></ContainerSobre>
+               
              </ContainerNossosServicos>
              <ContainerProdutos>
                 <H2Titulo>VARIEDADE DE PRODUTOS</H2Titulo>
