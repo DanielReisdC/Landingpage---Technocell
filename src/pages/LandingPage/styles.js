@@ -10,7 +10,7 @@ export const Header = styled.div`
 margin:2em;
 `;
 export const Nav= styled.div`
-width:100%;
+
 display: flex;
 justify-content: space-between;
 align-items:center;
@@ -30,13 +30,15 @@ align-items:center;
 `;
 export const Logo = styled.div`
 
-width:50px;
+    max-width: 20px;
+    min-width: 90px;
+    margin-left: 0px;
 `;
 export const ImagemLogo = styled.img`
 width:80px;
 `;
 export const LogoName = styled.div`
-width: 57%;
+
 
 `;
 export const Link = styled.a`
