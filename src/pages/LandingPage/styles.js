@@ -36,7 +36,7 @@ export const Logo = styled.div`
     @media (max-width: 330px)
  {
     min-width: 50px;
-    max-width: 50px;
+    max-width: 30px;
 }
 `;
 export const ImagemLogo = styled.img`
@@ -44,7 +44,7 @@ width:80px;
 @media (max-width: 330px)
  {
     min-width: 50px;
-    max-width: 50px;
+    max-width: 30px;
 }
 `;
 export const LogoName = styled.div`
@@ -90,6 +90,10 @@ transition: color 0.3s ease-in-out;
   margin: 5px;
   font-size: 80%;
 }
+@media (max-width: 330px) {
+  margin: 0px;
+  font-size: 65%;
+}
  
 `;
 export const H2 = styled.h2`
@@ -98,7 +102,7 @@ font-weight: 600;
 color:#EFC700;
 @media (max-width: 330px)
  {
-  font-size: 20px;
+  font-size: 16px;
 }
 `;
 
