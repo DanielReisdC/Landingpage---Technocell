@@ -33,9 +33,19 @@ export const Logo = styled.div`
     max-width: 20px;
     min-width: 90px;
     margin-left: 0px;
+    @media (max-width: 330px)
+ {
+    min-width: 50px;
+    max-width: 50px;
+}
 `;
 export const ImagemLogo = styled.img`
 width:80px;
+@media (max-width: 330px)
+ {
+    min-width: 50px;
+    max-width: 50px;
+}
 `;
 export const LogoName = styled.div`
 
@@ -86,6 +96,10 @@ export const H2 = styled.h2`
 font-size: 30px;
 font-weight: 600;
 color:#EFC700;
+@media (max-width: 330px)
+ {
+  font-size: 20px;
+}
 `;
 
 export const Main = styled.div`
