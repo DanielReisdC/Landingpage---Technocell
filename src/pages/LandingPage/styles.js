@@ -33,7 +33,7 @@ export const Logo = styled.div`
     max-width: 20px;
     min-width: 90px;
     margin-left: 0px;
-    @media (max-width: 330px)
+    @media (max-width: 250px)
  {
     min-width: 50px;
     max-width: 30px;
@@ -41,7 +41,7 @@ export const Logo = styled.div`
 `;
 export const ImagemLogo = styled.img`
 width:80px;
-@media (max-width: 330px)
+@media (max-width: 250px)
  {
     min-width: 50px;
     max-width: 30px;
@@ -51,6 +51,13 @@ export const LogoName = styled.div`
 
 
 `;
+export const ContainerLink = styled.div`
+
+display: flex;
+align-items: center;
+
+`;
+
 export const Link = styled.a`
 
 text-decoration: none;
@@ -87,12 +94,9 @@ transition: color 0.3s ease-in-out;
 }
 
 @media (max-width: 768px) {
+  width:100px;
   margin: 5px;
   font-size: 80%;
-}
-@media (max-width: 330px) {
-  margin: 0px;
-  font-size: 65%;
 }
  
 `;
@@ -100,7 +104,7 @@ export const H2 = styled.h2`
 font-size: 30px;
 font-weight: 600;
 color:#EFC700;
-@media (max-width: 330px)
+@media (max-width: 250px)
  {
   font-size: 16px;
 }

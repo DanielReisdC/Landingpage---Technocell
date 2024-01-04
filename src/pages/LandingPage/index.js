@@ -33,6 +33,7 @@ import{
     H2Titulo,
     PSobre,
     ContainerProdutos,
+    ContainerLink
 } from './styles';
 
 function LandingPage(){
@@ -44,7 +45,9 @@ function LandingPage(){
                     <Logo ><ImagemLogo src={LogoTechnocell}></ImagemLogo></Logo>
                     <LogoName><H2>TechnoCell</H2></LogoName>
                     </ContainerLogo>
+                    <ContainerLink>
                     <Link>SOBRE NÓS</Link>
+                    </ContainerLink>
                 </Nav>
             </Header>
             <Main>
