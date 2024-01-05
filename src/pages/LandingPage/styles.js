@@ -18,10 +18,24 @@ align-items:center;
 `;
 export const ContainerImagem = styled.div`
 width: 100%;
+height:100%;
 margin-top: 2.5em;
 display: flex;
 justify-content: center;
 gap:10px;
+`;
+export const ContainerImagemSobre = styled.div`
+width: 100%;
+height:100%;
+margin-top: 2.5em;
+display: flex;
+justify-content: center;
+gap:10px;
+@media (max-width: 720px)
+{
+  flex-direction: column;
+  align-items:center;
+}
 `;
 export const ContainerLogo = styled.div`
 display: flex;
@@ -146,21 +160,16 @@ margin-top:8px;
 `;
 export const ContainerNossosServicos = styled.div`
 background-color: #18307b;
+
 box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px inset;
 width: 100%;
 padding-bottom: 50px;
-display: flex;
-    align-items:center;
-    flex-direction: column
 `;
 export const ContainerProdutos = styled.div`
 background-color: #EFC700;
 box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px inset;
 width: 100%;
 padding-bottom: 50px;
-display: flex;
-    align-items:center;
-    flex-direction: column
 `;
 export const H2Titulo = styled.h2`
 color: rgb(255, 255, 255);
