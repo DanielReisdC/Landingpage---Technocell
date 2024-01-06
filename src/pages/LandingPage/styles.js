@@ -148,6 +148,10 @@ font-size: 16px;
 
 export const Imagens = styled.img`
 width:230px;
+@media(max-width:720px){
+  height:50vh;
+
+}
 
 `;
 export const ContainerSobre = styled.div`
