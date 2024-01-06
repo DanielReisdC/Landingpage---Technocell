@@ -78,7 +78,7 @@ function LandingPage() {
       <Main>
         <ContainerPrincipal>
           <ContainerSlogan>
-            <H1>EVOLUINDO O SEU MUNDO</H1>
+            <H1>EVOLUINDO SEU MUNDO</H1>
             <PDescricao>CELULARES - ACESSÓRIOS - ASSISTÊNCIA TÉCNICA</PDescricao>
           </ContainerSlogan>
           {showCarousel ? (
