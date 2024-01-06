@@ -47,7 +47,7 @@ export const Logo = styled.div`
     max-width: 20px;
     min-width: 90px;
     margin-left: 0px;
-    @media (max-width: 250px)
+    @media (max-width: 330px)
  {
     min-width: 50px;
     max-width: 30px;
@@ -55,7 +55,7 @@ export const Logo = styled.div`
 `;
 export const ImagemLogo = styled.img`
 width:80px;
-@media (max-width: 250px)
+@media (max-width: 330px)
  {
     min-width: 50px;
     max-width: 30px;
@@ -108,17 +108,21 @@ transition: color 0.3s ease-in-out;
 }
 
 @media (max-width: 768px) {
-  width:100px;
+  width:80px;
   margin: 5px;
   font-size: 80%;
 }
- 
+@media (max-width: 330px) {
+  width: 53px;
+  margin: 5px;
+  font-size: 55%;
+}
 `;
 export const H2 = styled.h2`
 font-size: 30px;
 font-weight: 600;
 color:#EFC700;
-@media (max-width: 250px)
+@media (max-width: 330px)
  {
   font-size: 16px;
 }
@@ -149,7 +153,7 @@ font-size: 16px;
 export const Imagens = styled.img`
 width:230px;
 @media(max-width:720px){
-  height:50vh;
+  height:45vh;
 
 }
 
