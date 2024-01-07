@@ -122,7 +122,7 @@ export const H2 = styled.h2`
 font-size: 30px;
 font-weight: 600;
 color:#EFC700;
-@media (max-width: 330px)
+@media (max-width: 450px)
  {
   font-size: 16px;
 }
@@ -153,7 +153,7 @@ font-size: 16px;
 export const Imagens = styled.img`
 width:230px;
 @media(max-width:720px){
-  height:320px;
+  height:310px;
 
 }
 
