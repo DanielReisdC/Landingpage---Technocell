@@ -45,7 +45,7 @@ align-items:center;
 export const Logo = styled.div`
 
     max-width: 20px;
-    min-width: 90px;
+    min-width: 80px;
     margin-left: 0px;
     @media (max-width: 330px)
     {
@@ -54,7 +54,7 @@ export const Logo = styled.div`
     }
 `;
 export const ImagemLogo = styled.img`
-width:80px;
+width:70px;
 @media (max-width: 330px)
  {
     min-width: 50px;
@@ -164,7 +164,7 @@ transition: color 0.3s ease-in-out;
 }
 `;
 export const H2 = styled.h2`
-font-size: 30px;
+font-size: 26px;
 font-weight: 600;
 color:#EFC700;
 @media (max-width: 330px)
@@ -235,6 +235,90 @@ color: rgb(255, 255, 255);
     font-weight: 600;
     font-size: 12px;
     max-width: 39em;
+`;
+export const Footer = styled.footer`
+  background-color: #ffffff;
+  padding: 10px 0;
+  box-shadow: inset 0px 4px 4px #00000040;
+`;
+
+export const ContainerFooter = styled.div`
+  max-width: 1200px;
+  margin: 0 auto;
+  
+`;
+
+export const FooterTop = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+`;
+
+export const FooterLogo = styled.div`
+  width: 44px;
+  display:flex;
+  align-items:center
+`;
+
+export const ImageLogoFooter = styled.img`
+  min-width: 44px;
+  width: 100%;
+  height: 100%;
+  margin: 11px 0 0 11px;
+ 
+`;
+
+export const FooterLinks = styled.div``;
+
+export const StyledUl = styled.ul`
+  list-style: none;
+  margin: 0;
+  padding: 0;
+`;
+
+export const StyledLi = styled.li`
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #242424;
+  font-size: 15px;
+  transition: color 0.3s ease;
+  font-weight: bold;
+
+  @media (max-width: 471px) {
+    margin-left: 11px;
+  }
+
+  &:hover {
+    color: #21325a;
+  }
+`;
+
+export const FooterBottom = styled.div`
+  text-align: center;
+`;
+
+export const PFooter = styled.p`
+  font-size: 12px;
+  color: #242424;
+  margin: 0;
+`;
+export const H2Footer = styled.h2`
+font-size: 18px;
+font-weight: 600;
+margin-top: 16px;
+margin-left:5px;
+@media (max-width: 330px)
+ {
+  font-size: 18px;
+}
+
+`;
+export const LogoNameFooter = styled.div`
+
+
 `;
 
 

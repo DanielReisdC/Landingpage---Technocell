@@ -39,6 +39,18 @@ import {
   ContainerLink,
   ContainerImagemSobre,
   LinkDescricao,
+  Footer,
+  ContainerFooter,
+  FooterTop,
+  FooterLogo,
+  FooterLinks,
+  StyledUl,
+  StyledLi,
+  FooterBottom,
+  PFooter,
+  ImageLogoFooter,
+  LogoNameFooter,
+  H2Footer,
 } from './styles';
 
 function LandingPage() {
@@ -139,6 +151,34 @@ function LandingPage() {
           </ContainerProdutos>
         </ContainerPrincipal>
       </Main>
+      <Footer>
+        <ContainerFooter>
+          <FooterTop>
+            <FooterLogo>
+              
+                <ImageLogoFooter src={LogoTechnocell} />
+                <LogoNameFooter>
+              <H2Footer>TechnoCell</H2Footer>
+            </LogoNameFooter>
+              
+            </FooterLogo>
+            <FooterLinks>
+              <StyledUl>
+                <StyledLi>
+                  Página Inicial
+                </StyledLi>
+                
+                <StyledLi >
+                  Sobre Nós
+                </StyledLi>
+              </StyledUl>
+            </FooterLinks>
+          </FooterTop>
+          <FooterBottom>
+            <PFooter>Todos os direitos reservados &copy; 2024 TechnoCell</PFooter>
+          </FooterBottom>
+        </ContainerFooter>
+      </Footer>
     </AppBody>
   );
 }
