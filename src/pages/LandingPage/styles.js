@@ -152,8 +152,8 @@ font-size: 16px;
 
 export const Imagens = styled.img`
 width:230px;
-@media(max-width:720px){
-  height:45vh;
+@media(max-width:450px){
+  height:38vh;
 
 }
 
