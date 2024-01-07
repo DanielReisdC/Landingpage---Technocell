@@ -48,10 +48,10 @@ export const Logo = styled.div`
     min-width: 90px;
     margin-left: 0px;
     @media (max-width: 330px)
- {
-    min-width: 50px;
-    max-width: 30px;
-}
+    {
+        min-width: 55px;
+        max-width: 30px;
+    }
 `;
 export const ImagemLogo = styled.img`
 width:80px;
@@ -152,8 +152,8 @@ font-size: 16px;
 
 export const Imagens = styled.img`
 width:230px;
-@media(max-width:450px){
-  height:38vh;
+@media(max-width:720px){
+  height:340px;
 
 }
 
