@@ -37,7 +37,8 @@ import {
   PSobre,
   ContainerProdutos,
   ContainerLink,
-  ContainerImagemSobre
+  ContainerImagemSobre,
+  LinkDescricao,
 } from './styles';
 
 function LandingPage() {
@@ -79,7 +80,11 @@ function LandingPage() {
         <ContainerPrincipal>
           <ContainerSlogan>
             <H1>EVOLUINDO SEU MUNDO</H1>
-            <PDescricao>CELULARES - ACESSÓRIOS - ASSISTÊNCIA TÉCNICA</PDescricao>
+             <PDescricao>
+              <LinkDescricao>CELULARES</LinkDescricao> -{' '}
+              <LinkDescricao>ACESSÓRIOS</LinkDescricao> -{' '}
+              <LinkDescricao>{windowWidth < 720 ? 'ASSIS.TÉCNICA' : 'ASSISTÊNCIA TÉCNICA'}</LinkDescricao>
+            </PDescricao>
           </ContainerSlogan>
           {showCarousel ? (
             <ContainerImagem>

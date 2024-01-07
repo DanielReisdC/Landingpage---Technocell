@@ -118,13 +118,58 @@ transition: color 0.3s ease-in-out;
   font-size: 55%;
 }
 `;
+export const LinkDescricao = styled.a`
+color: inherit;
+text-decoration: none;
+font-size: 16px;
+  font-weight: 300;
+  margin: 0.2em 0.5em;
+position: relative;
+display: inline-block;
+cursor: pointer;
+transition: color 0.3s ease-in-out;
+
+@media (max-width: 450px) {
+  display: ${(props) => (props.$remove ? "none" : "display: inline-block")};
+}
+
+&::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #000000;
+  transition: width 0.3s ease-in-out;
+}
+
+&:hover {
+  color: #18307b;
+
+  &::after {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  width:80px;
+  margin: 5px;
+  font-size: 80%;
+}
+@media (max-width: 330px) {
+  width: 53px;
+  margin: 5px;
+  font-size: 55%;
+}
+`;
 export const H2 = styled.h2`
 font-size: 30px;
 font-weight: 600;
 color:#EFC700;
 @media (max-width: 330px)
  {
-  font-size: 16px;
+  font-size: 18px;
 }
 `;
 
@@ -153,7 +198,7 @@ font-size: 16px;
 export const Imagens = styled.img`
 width:230px;
 @media(max-width:720px){
-  height:308px;
+  height:306px;
 
 }
 
