@@ -108,14 +108,14 @@ transition: color 0.3s ease-in-out;
 }
 
 @media (max-width: 768px) {
-  width:80px;
+  width:100px;
   margin: 5px;
-  font-size: 80%;
+  font-size: 90%;
 }
-@media (max-width: 330px) {
-  width: 53px;
-  margin: 5px;
-  font-size: 55%;
+@media (max-width: 380px) {
+  width: 100px;
+    margin: 5px;
+    font-size: 90%;
 }
 `;
 export const LinkDescricao = styled.a`
@@ -153,14 +153,14 @@ transition: color 0.3s ease-in-out;
 }
 
 @media (max-width: 768px) {
-  width:80px;
-  margin: 5px;
-  font-size: 80%;
+  width: 100px;
+    margin: 5px;
+    font-size: 15px;
 }
-@media (max-width: 330px) {
-  width: 53px;
+@media (max-width: 380px) {
+  width: 85px;
   margin: 5px;
-  font-size: 55%;
+  font-size: 14px;
 }
 `;
 export const H2 = styled.h2`
