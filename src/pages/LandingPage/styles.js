@@ -111,11 +111,13 @@ transition: color 0.3s ease-in-out;
   width:100px;
   margin: 5px;
   font-size: 90%;
+  text-align:center;
 }
 @media (max-width: 380px) {
   width: 100px;
     margin: 5px;
     font-size: 90%;
+    text-align:center;
 }
 `;
 export const LinkDescricao = styled.a`
