@@ -95,7 +95,7 @@ function LandingPage() {
              <PDescricao>
               <LinkDescricao>CELULARES</LinkDescricao> -{' '}
               <LinkDescricao>ACESSÓRIOS</LinkDescricao> -{' '}
-              <LinkDescricao>{windowWidth < 720 ? 'ASSIS.TÉCNICA' : 'ASSISTÊNCIA TÉCNICA'}</LinkDescricao>
+              <LinkDescricao>{windowWidth < 720 ? 'ASSIST.TÉCNICA' : 'ASSISTÊNCIA TÉCNICA'}</LinkDescricao>
             </PDescricao>
           </ContainerSlogan>
           {showCarousel ? (
