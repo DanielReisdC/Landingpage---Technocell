@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Landingpage-Technocell/static/css/main.241951ba.css",
-    "main.js": "/Landingpage-Technocell/static/js/main.aa288478.js",
+    "main.js": "/Landingpage-Technocell/static/js/main.b55eb5b4.js",
     "static/media/video2.mp4": "/Landingpage-Technocell/static/media/video2.7df29e82be3ec8c4bb63.mp4",
     "static/media/video1.mp4": "/Landingpage-Technocell/static/media/video1.685dab18fccbb34b7da8.mp4",
     "static/media/Imagem3.jpg": "/Landingpage-Technocell/static/media/Imagem3.80c216d96fc2905d7fa8.jpg",
@@ -18,10 +18,10 @@
     "static/media/logo.png": "/Landingpage-Technocell/static/media/logo.6a6eaf0470ddd8632d50.png",
     "index.html": "/Landingpage-Technocell/index.html",
     "main.241951ba.css.map": "/Landingpage-Technocell/static/css/main.241951ba.css.map",
-    "main.aa288478.js.map": "/Landingpage-Technocell/static/js/main.aa288478.js.map"
+    "main.b55eb5b4.js.map": "/Landingpage-Technocell/static/js/main.b55eb5b4.js.map"
   },
   "entrypoints": [
     "static/css/main.241951ba.css",
-    "static/js/main.aa288478.js"
+    "static/js/main.b55eb5b4.js"
   ]
 }
