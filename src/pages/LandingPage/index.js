@@ -8,8 +8,8 @@ import Imagem2 from '../../assets/Imagem2.jpg';
 import Imagem3 from '../../assets/Imagem3.jpg';
 import Imagem4 from '../../assets/Imagem4.jpg';
 import Imagem5 from '../../assets/Imagem5.jpg';
-import Imagem51 from '../../assets/Imagem51.jpg';
-import Imagem52 from '../../assets/Imagem52.jpg';
+import Video1 from '../../assets/video1.mp4';
+import Video2 from '../../assets/video2.mp4';
 import Imagem6 from '../../assets/Imagem6.jpg';
 import Imagem7 from '../../assets/Imagem7.jpg';
 import Imagem8 from '../../assets/Imagem8.jpg';
@@ -56,6 +56,7 @@ import {
   H2Footer,
   ContainerBemVindo,
   PBemVindo,
+  Videos,
 } from './styles';
 
 function LandingPage() {
@@ -137,8 +138,8 @@ function LandingPage() {
               </PSobre>
             </ContainerSobre>
             <ContainerImagemSobre>
-              <Imagens src={Imagem52} />
-              <Imagens src={Imagem51} />
+              <Videos src={Video1} />
+              <Videos src={Video2} />
             </ContainerImagemSobre>
             <ContainerSobre>
               <PSobre>TAMBÉM COLOCAMOS PELÍCULA E FAZEMOS LIMPEZA EM SEU APARELHO.</PSobre>

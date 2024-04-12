@@ -215,7 +215,13 @@ width:230px;
   height:306px;
 
 }
+`;
+export const Videos = styled.video`
+width:230px;
+@media(max-width:720px){
+  height:306px;
 
+}
 `;
 export const ContainerSobre = styled.div`
 display: flex;
@@ -249,6 +255,7 @@ color: rgb(255, 255, 255);
     font-weight: 600;
     font-size: 12px;
     max-width: 39em;
+    text-align: justify;
 `;
 export const Footer = styled.footer`
   background-color: #ffffff;
