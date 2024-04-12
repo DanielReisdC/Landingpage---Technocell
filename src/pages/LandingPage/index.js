@@ -37,6 +37,7 @@ import {
   ContainerNossosServicos,
   ContainerSobre,
   H2Titulo,
+  H2Titulo1,
   PSobre,
   ContainerProdutos,
   ContainerLink,
@@ -83,7 +84,7 @@ function LandingPage() {
         <Nav>
           <ContainerLogo>
             <Logo>
-              <ImagemLogo src={LogoTechnocell} />
+              <ImagemLogo src={LogoTechnocell} alt="Logo TechnoCell"/>
             </Logo>
             <LogoName>
               <H2>TechnoCell</H2>
@@ -127,19 +128,19 @@ function LandingPage() {
           )}
           
           <ContainerNossosServicos>
-            <H2Titulo>NOSSOS SERVIÇOS</H2Titulo>
+            <H2Titulo1>NOSSOS SERVIÇOS</H2Titulo1>
             <ContainerImagemSobre>
-              <Imagens src={Imagem4} />
-              <Imagens src={Imagem5} />
+              <Imagens src={Imagem4} alt="Quarta Imagem" />
+              <Imagens src={Imagem5} alt="Quinta Imagem"/>
             </ContainerImagemSobre>
             <ContainerSobre>
               <PSobre>
-                AQUI CONSERTAMOS O SEU APARELHO SEJA QUAL FOR A MARCA DEIXANDO ELE NOVO EM FOLHA. FAZEMOS A TROCA DO DISPLAY, BATERIA E TAMBÉM DE OUTROS COMPONENTES.
+                AQUI CONSERTAMOS O SEU APARELHO SEJA QUAL FOR A MARCA, DEIXANDO ELE NOVO EM FOLHA. FAZEMOS A TROCA DO DISPLAY, BATERIA E TAMBÉM DE OUTROS COMPONENTES.
               </PSobre>
             </ContainerSobre>
             <ContainerImagemSobre>
-              <Videos src={Video1} />
-              <Videos src={Video2} />
+              <Videos controls src={Video1} />
+              <Videos controls src={Video2} />
             </ContainerImagemSobre>
             <ContainerSobre>
               <PSobre>TAMBÉM COLOCAMOS PELÍCULA E FAZEMOS LIMPEZA EM SEU APARELHO.</PSobre>
@@ -148,14 +149,14 @@ function LandingPage() {
           <ContainerProdutos>
             <H2Titulo>VARIEDADE DE PRODUTOS</H2Titulo>
             <ContainerImagemSobre>
-              <Imagens src={Imagem6} />
-              <Imagens src={Imagem7} />
-              <Imagens src={Imagem8} />
+              <Imagens src={Imagem6} alt="SextaImagem"/>
+              <Imagens src={Imagem7} alt="Sétima Imagem"/>
+              <Imagens src={Imagem8} alt="Oitava Imagem"/>
             </ContainerImagemSobre>
                <ContainerImagemSobre>
-              <Imagens src={Imagem9} />
-              <Imagens src={Imagem10} />
-              <Imagens src={Imagem11} />
+              <Imagens src={Imagem9}alt="Nona Imagem" />
+              <Imagens src={Imagem10}alt="Décima Imagem"/>
+              <Imagens src={Imagem11} alt="Décima primeira Imagem"/>
             </ContainerImagemSobre>
             <ContainerSobre>
               <PSobre></PSobre>
@@ -168,7 +169,7 @@ function LandingPage() {
           <FooterTop>
             <FooterLogo>
               
-                <ImageLogoFooter src={LogoTechnocell} />
+                <ImageLogoFooter src={LogoTechnocell} alt="Logo TechnoCell"/>
                 <LogoNameFooter>
               <H2Footer>TechnoCell</H2Footer>
             </LogoNameFooter>

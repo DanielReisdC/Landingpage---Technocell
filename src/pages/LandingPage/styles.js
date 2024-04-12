@@ -180,11 +180,18 @@ transition: color 0.3s ease-in-out;
 export const H2 = styled.h2`
 font-size: 26px;
 font-weight: 600;
-color:#EFC700;
+color:#18307b;
 @media (max-width: 330px)
  {
   font-size: 18px;
 }
+`;
+export const H2Titulo1 = styled.h2`
+color:#ffffff;
+text-align: center;
+    font-size: 27px;
+    margin: 15px;
+
 `;
 
 export const Main = styled.div`
@@ -245,7 +252,7 @@ width: 100%;
 padding-bottom: 50px;
 `;
 export const H2Titulo = styled.h2`
-color: rgb(255, 255, 255);
+color: #18307b;
     text-align: center;
     font-size: 27px;
     margin: 15px;
