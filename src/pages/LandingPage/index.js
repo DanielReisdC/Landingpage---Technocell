@@ -13,6 +13,9 @@ import Imagem52 from '../../assets/Imagem52.jpg';
 import Imagem6 from '../../assets/Imagem6.jpg';
 import Imagem7 from '../../assets/Imagem7.jpg';
 import Imagem8 from '../../assets/Imagem8.jpg';
+import Imagem9 from '../../assets/imagem9.jpg';
+import Imagem10 from '../../assets/imagem10.jpg';
+import Imagem11 from '../../assets/imagem11.jpg';
 
 import {
   AppBody,
@@ -51,6 +54,8 @@ import {
   ImageLogoFooter,
   LogoNameFooter,
   H2Footer,
+  ContainerBemVindo,
+  PBemVindo,
 } from './styles';
 
 function LandingPage() {
@@ -119,6 +124,7 @@ function LandingPage() {
               <Imagens src={Imagem3} alt="Terceira Imagem" />
             </ContainerImagem>
           )}
+          
           <ContainerNossosServicos>
             <H2Titulo>NOSSOS SERVIÇOS</H2Titulo>
             <ContainerImagemSobre>
@@ -144,6 +150,11 @@ function LandingPage() {
               <Imagens src={Imagem6} />
               <Imagens src={Imagem7} />
               <Imagens src={Imagem8} />
+            </ContainerImagemSobre>
+               <ContainerImagemSobre>
+              <Imagens src={Imagem9} />
+              <Imagens src={Imagem10} />
+              <Imagens src={Imagem11} />
             </ContainerImagemSobre>
             <ContainerSobre>
               <PSobre></PSobre>

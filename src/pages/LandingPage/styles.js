@@ -65,6 +65,18 @@ export const LogoName = styled.div`
 
 
 `;
+export const ContainerBemVindo = styled.div`
+
+
+`;
+export const PBemVindo = styled.p `
+font-weight: bold;
+
+font-size: 16px;
+    font-weight: 300;
+    margin: 0.2em 0.5em;
+`;
+
 export const ContainerLink = styled.div`
 
 display: flex;
