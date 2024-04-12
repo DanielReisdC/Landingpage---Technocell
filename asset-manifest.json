@@ -1,7 +1,9 @@
 {
   "files": {
     "main.css": "/Landingpage-Technocell/static/css/main.241951ba.css",
-    "main.js": "/Landingpage-Technocell/static/js/main.09430cf6.js",
+    "main.js": "/Landingpage-Technocell/static/js/main.6a8d2b8f.js",
+    "static/media/video2.mp4": "/Landingpage-Technocell/static/media/video2.7df29e82be3ec8c4bb63.mp4",
+    "static/media/video1.mp4": "/Landingpage-Technocell/static/media/video1.685dab18fccbb34b7da8.mp4",
     "static/media/Imagem3.jpg": "/Landingpage-Technocell/static/media/Imagem3.80c216d96fc2905d7fa8.jpg",
     "static/media/Imagem5.jpg": "/Landingpage-Technocell/static/media/Imagem5.8619922bc42f1d2b1c1c.jpg",
     "static/media/imagem11.jpg": "/Landingpage-Technocell/static/media/imagem11.9c49d13fc755520d52c8.jpg",
@@ -10,18 +12,16 @@
     "static/media/imagem9.jpg": "/Landingpage-Technocell/static/media/imagem9.274c7893366ad68ffaa0.jpg",
     "static/media/Imagem1.jpg": "/Landingpage-Technocell/static/media/Imagem1.3d02d244d239634eb9d7.jpg",
     "static/media/Imagem8.jpg": "/Landingpage-Technocell/static/media/Imagem8.b97ab4fe8c97c0e89f45.jpg",
-    "static/media/Imagem52.jpg": "/Landingpage-Technocell/static/media/Imagem52.a0c838651c1be2ef719c.jpg",
     "static/media/imagem10.jpg": "/Landingpage-Technocell/static/media/imagem10.68785ff5681879839ff5.jpg",
     "static/media/Imagem2.jpg": "/Landingpage-Technocell/static/media/Imagem2.027d29f0cebe4546a965.jpg",
-    "static/media/Imagem51.jpg": "/Landingpage-Technocell/static/media/Imagem51.f43617bbbe2f40e32449.jpg",
     "static/media/Imagem7.jpg": "/Landingpage-Technocell/static/media/Imagem7.1b1df158f8b57b81c71a.jpg",
     "static/media/logo.png": "/Landingpage-Technocell/static/media/logo.6a6eaf0470ddd8632d50.png",
     "index.html": "/Landingpage-Technocell/index.html",
     "main.241951ba.css.map": "/Landingpage-Technocell/static/css/main.241951ba.css.map",
-    "main.09430cf6.js.map": "/Landingpage-Technocell/static/js/main.09430cf6.js.map"
+    "main.6a8d2b8f.js.map": "/Landingpage-Technocell/static/js/main.6a8d2b8f.js.map"
   },
   "entrypoints": [
     "static/css/main.241951ba.css",
-    "static/js/main.09430cf6.js"
+    "static/js/main.6a8d2b8f.js"
   ]
 }
